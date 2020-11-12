@@ -1,0 +1,9 @@
+1. Paigaldamine
+
+apt install git või apt-get install git
+
+2. seadistamine
+
+git config --global user.name "" - siia lähevad jutumärgid
+git config --global user.email "" - siin jätta jutumärgid ära
+git config --global core.editor nano
