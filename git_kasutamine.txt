@@ -7,3 +7,19 @@ apt install git või apt-get install git
 git config --global user.name "" - siia lähevad jutumärgid
 git config --global user.email "" - siin jätta jutumärgid ära
 git config --global core.editor nano
+
+3. Kaustamine
+
+a. alguses AINULT 1 kord, kus planeerime scripti hoida ja muuta
+
+git init
+
+b. Iga failiga - eeldusega et fail on olemas [ja lisatud ja salvestatud mingi sisu]
+git status
+git add failinimi
+git commit -m "muudatuse kirjeldus"
+
+c. Muudatuste ajaloo jälgimine 
+
+git log
+git show commit_hash <---- see häsh mis on see muudatus
