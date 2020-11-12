@@ -25,3 +25,13 @@ git log
 git show commit_hash <---- see häsh mis on see muudatus
 git log --pretty=format:"%h %s" --graph
 
+4. remote github.com
+
+a. loo github.com repositoorium
+b. tekita ühendus hithub repositooriumiga
+
+git remote addd origin https://github.com/richardvillmann/skriptialused.git
+
+c.[iga muudatuse korral lükka lokaalse ajalugu githubi
+
+git push -u origin main
