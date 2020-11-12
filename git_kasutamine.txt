@@ -23,3 +23,5 @@ c. Muudatuste ajaloo jälgimine
 
 git log
 git show commit_hash <---- see häsh mis on see muudatus
+git log --pretty=format:"%h %s" --graph
+
