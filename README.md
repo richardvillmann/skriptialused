@@ -35,5 +35,5 @@ b. tekita ühendus github repositooriumiga
 git remote add origin https://github.com/"sinukasutaja"/"sinu_repositoorium"
 c.[iga muudatuse korral lükka lokaalse ajalugu githubi
 
-git push -u origin main
+git push -u origin master
 ```
